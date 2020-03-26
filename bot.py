@@ -31,6 +31,7 @@ class Proposal():
     def __init__(self, ctx, description='', description_args=[]):
         global CURRENT_ID
         self.id = CURRENT_ID
+        CURRENT_ID += 1
         self.ctx = ctx
         self.proposer = ctx.author.name
         self.description = description.format(description_args)
