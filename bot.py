@@ -6,6 +6,8 @@ from discord.ext import commands
 # load_dotenv()
 import time
 
+# TODO Commenting
+
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 MC_SERVER_IP = os.getenv('MC_SERVER_IP')
