@@ -49,6 +49,7 @@ class Proposal():
             await self.ctx.send("{} - Passed".format(str(self)))
         else:
             await self.ctx.send("{} - Failed".format(str(self)))
+        proposals.remove(self)
     
     def vote_for(self, voter):
         self.remove_vote(voter)
