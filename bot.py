@@ -26,7 +26,6 @@ if not mcrcon:
     print('Password incorrect')
     exit(1)
 
-
 CURRENT_ID = 0
 
 class Proposal():
